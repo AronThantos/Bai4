@@ -1,0 +1,64 @@
+
+div{display: inline-block;}
+header{
+    font-size: 28px;
+    justify-content: left;
+
+    background-color: #4CAF50;}
+a{
+    justify-content: right;
+    display: inline-block;
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+    background-color: #4CAF50;}
+    p{ 
+        padding: 150px;}
+    .home{
+      
+        text-align: center;
+        color: white;
+        font-size: :80px
+    }
+    h2{
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: black;
+        color: white;}
+    div.About{
+        padding: 50px 50px;
+            background-color: black;}
+    span{
+        display: block;
+        font-size: 50px;
+        color: #4CAF50;
+        text-align: center;}
+    img{padding-left: 30px;}
+    div.text1{
+       font-size: 20px;
+        padding: 170px;}
+    div.Project{
+        padding: 100px 100px;
+        text-align: center;
+        color: black;
+        font-size: 50px;
+    }
+    td.Projects{
+        font-size: 20px;
+    }
+    ul.Projects{
+        padding-left: 200px;
+    }
+    td.anh2{
+        padding-left: 400px;
+    }
+    div.Achievements{
+        margin-top: 0%;
+        padding-top: 50px;
+        text-align: center;
+        color: #4CAF50;
+        font-size: 50px;
+        background-color: black;}
+      
