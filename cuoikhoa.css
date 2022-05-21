@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 100 vw;
+    background-color: black;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo {
+    padding-right: 100px;
+}
+
+.menu1 {
+    display: flex;
+    list-style: none;
+
+}
+.guthietke{
+    position: relative;
+}
+.dropdown{
+    display: none;
+    width: 300px;
+    background-color: rgb(34, 34, 34);
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    margin-top: 20px;
+    padding: 18px 0px ;
+}
+
+.menu1 .guthietke:hover .dropdown{
+    display: block;
+    transition: color 2s ease-out;
+}
+.menu1 a {
+    font-family: Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+   
+}
+.menu1 a:hover{
+    color: #ee4266;
+    transition: color .2s ease-out;
+    }
+.menu1 .guthietke .dropdown a{
+display: block;
+}
+.menu1>li>a{
+    position: relative;
+}
+.menu1>li>a::before{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #f00;
+    position: absolute;
+    bottom: -22px;
+    display: none;
+}
+.menu1>li:hover>a::before{
+    display: block;
+    left: 0px;
+}
+.menu1>li.guthietke::after{
+ font-family: "Font Awesome 5 Free"; 
+ font-weight: 900; 
+ content: "\f107";
+ color: white;
+ position: absolute;
+ top: -18px;
+ right: 0px;
+ padding: 18px 0px;
+}
